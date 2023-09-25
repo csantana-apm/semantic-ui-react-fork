@@ -31,13 +31,13 @@ export {
 export isBrowser from './isBrowser'
 export doesNodeContainClick from './doesNodeContainClick'
 export leven from './leven'
-export createPaginationItems from './createPaginationItems'
+// export createPaginationItems from './createPaginationItems'
 export * as SUI from './SUI'
 
-export { numberToWordMap, numberToWord } from './numberToWord'
-export normalizeOffset from './normalizeOffset'
-export normalizeTransitionDuration from './normalizeTransitionDuration'
-export objectDiff from './objectDiff'
+// export { numberToWordMap, numberToWord } from './numberToWord'
+// export normalizeOffset from './normalizeOffset'
+// export normalizeTransitionDuration from './normalizeTransitionDuration'
+// export objectDiff from './objectDiff'
 
 // Heads up! We import/export for this module to safely remove it with "babel-plugin-filter-imports"
 export { makeDebugger }

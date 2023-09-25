@@ -18,8 +18,6 @@ var _exportNames = {
   htmlInputProps: true,
   htmlImageProps: true,
   partitionHTMLProps: true,
-  numberToWordMap: true,
-  numberToWord: true,
   ModernAutoControlledComponent: true,
   childrenUtils: true,
   customPropTypes: true,
@@ -29,14 +27,10 @@ var _exportNames = {
   isBrowser: true,
   doesNodeContainClick: true,
   leven: true,
-  createPaginationItems: true,
   SUI: true,
-  normalizeOffset: true,
-  normalizeTransitionDuration: true,
-  objectDiff: true,
   useClassNamesOnNode: true
 };
-exports.SUI = exports.customPropTypes = exports.childrenUtils = exports.numberToWord = exports.numberToWordMap = exports.partitionHTMLProps = exports.htmlImageProps = exports.htmlInputProps = exports.htmlInputEvents = exports.htmlInputAttrs = exports.useWidthProp = exports.useVerticalAlignProp = exports.useTextAlignProp = exports.useMultipleProp = exports.useValueAndKey = exports.useKeyOrValueAndKey = exports.useKeyOnly = void 0;
+exports.SUI = exports.customPropTypes = exports.childrenUtils = exports.partitionHTMLProps = exports.htmlImageProps = exports.htmlInputProps = exports.htmlInputEvents = exports.htmlInputAttrs = exports.useWidthProp = exports.useVerticalAlignProp = exports.useTextAlignProp = exports.useMultipleProp = exports.useValueAndKey = exports.useKeyOrValueAndKey = exports.useKeyOnly = void 0;
 
 var _ModernAutoControlledComponent2 = _interopRequireDefault(require("./ModernAutoControlledComponent"));
 
@@ -100,30 +94,9 @@ var _leven2 = _interopRequireDefault(require("./leven"));
 
 exports.leven = _leven2.default;
 
-var _createPaginationItems2 = _interopRequireDefault(require("./createPaginationItems"));
-
-exports.createPaginationItems = _createPaginationItems2.default;
-
 var _SUI = _interopRequireWildcard(require("./SUI"));
 
 exports.SUI = _SUI;
-
-var _numberToWord = require("./numberToWord");
-
-exports.numberToWordMap = _numberToWord.numberToWordMap;
-exports.numberToWord = _numberToWord.numberToWord;
-
-var _normalizeOffset2 = _interopRequireDefault(require("./normalizeOffset"));
-
-exports.normalizeOffset = _normalizeOffset2.default;
-
-var _normalizeTransitionDuration2 = _interopRequireDefault(require("./normalizeTransitionDuration"));
-
-exports.normalizeTransitionDuration = _normalizeTransitionDuration2.default;
-
-var _objectDiff2 = _interopRequireDefault(require("./objectDiff"));
-
-exports.objectDiff = _objectDiff2.default;
 
 var _useClassNamesOnNode2 = _interopRequireDefault(require("./hooks/useClassNamesOnNode"));
 

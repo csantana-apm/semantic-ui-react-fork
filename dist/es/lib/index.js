@@ -18,18 +18,14 @@ export { _isBrowser as isBrowser };
 import _doesNodeContainClick from './doesNodeContainClick';
 export { _doesNodeContainClick as doesNodeContainClick };
 import _leven from './leven';
-export { _leven as leven };
-import _createPaginationItems from './createPaginationItems';
-export { _createPaginationItems as createPaginationItems };
+export { _leven as leven }; // export createPaginationItems from './createPaginationItems'
+
 import * as _SUI from './SUI';
-export { _SUI as SUI };
-export { numberToWordMap, numberToWord } from './numberToWord';
-import _normalizeOffset from './normalizeOffset';
-export { _normalizeOffset as normalizeOffset };
-import _normalizeTransitionDuration from './normalizeTransitionDuration';
-export { _normalizeTransitionDuration as normalizeTransitionDuration };
-import _objectDiff from './objectDiff';
-export { _objectDiff as objectDiff }; // Heads up! We import/export for this module to safely remove it with "babel-plugin-filter-imports"
+export { _SUI as SUI }; // export { numberToWordMap, numberToWord } from './numberToWord'
+// export normalizeOffset from './normalizeOffset'
+// export normalizeTransitionDuration from './normalizeTransitionDuration'
+// export objectDiff from './objectDiff'
+// Heads up! We import/export for this module to safely remove it with "babel-plugin-filter-imports"
 
 //
 // Hooks
