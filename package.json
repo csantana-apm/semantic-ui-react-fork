@@ -15,7 +15,6 @@
   "sideEffects": false,
   "scripts": {
     "build": "cross-env NODE_ENV=production gulp build",
-    "build:docs": "cross-env NODE_ENV=production gulp build:docs",
     "build:docs:staging": "cross-env STAGING=true yarn build:docs && yarn serve docs/dist",
     "build:dist": "gulp build:dist",
     "prebuild:size": "gulp build:dist:es",
